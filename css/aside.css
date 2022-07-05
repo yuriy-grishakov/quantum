@@ -1,0 +1,161 @@
+.catalog-wrapper {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.aside-wrapper {
+	position: relative;
+}
+
+.aside {
+	padding-left: 17px;
+}
+
+.aside-open {
+    font-size: 16px;
+    padding: 10px 15px 9px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    display: none;
+}
+
+.aside-open__burger {
+	display: grid;
+	grid-gap: 4px;
+	margin-right: 10px;
+}
+
+.aside-open__burger span {
+	width: 25px;
+	height: 2px;
+	display: block;
+	background-color: #fff;
+	transition: background .2s ease;
+}
+
+.aside-open:hover .aside-open__burger span {
+	background-color: var(--color-1);
+	transition: background .2s ease;
+}
+
+
+.aside-close {
+	padding: 0;
+	height: 25px;
+	width: 25px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: transparent;
+	background-image: url(../img/icons/delete.svg);
+	background-repeat: no-repeat;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: none;
+    background-size: 25px 25px;
+    background-position: center center;
+    display: none;
+}
+
+
+.aside__title {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: var(--color-2);
+}
+
+.aside__list {
+	padding: 0;
+	margin: 0;
+}
+
+.aside__item {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.aside__item:last-child {
+	margin-bottom: 0;
+}
+
+.aside__link {
+	text-decoration: none;
+	color: #000;
+	transition: color .4s linear;
+}
+
+.aside__link:hover {
+	color: var(--color-1);
+	text-decoration: underline;
+	transition: color .4s linear;
+}
+
+
+/*   responsive   */
+
+@media (max-width: 1199px) {
+
+	.aside {
+		padding-left: 0;
+	}
+
+	.aside__title,
+	.aside-wrapper {
+		display: none;
+	}
+
+	.aside-wrapper {
+		padding-top: 50px;
+	}
+
+	.aside-wrapper,
+	.aside-open {
+		margin-bottom: 40px;
+	}
+
+	.aside-wrapper.active {
+		display: block;
+	}
+
+	.aside__list.active {
+		display: block;
+	}
+
+	.aside-open.active {
+		display: flex;
+	}
+
+	.aside-close {
+		display: block;
+	}
+
+	.aside__link {
+		font-size: 16px!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

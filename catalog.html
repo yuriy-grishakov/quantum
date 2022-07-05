@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ноутбуки</title>
+	<link rel="preconnect" href="//fonts.googleapis.com">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#EB4523">
+	<meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#EB4523">
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=PT+Sans:wght@400;700&family=Philosopher&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/aside.css">
+	<link rel="stylesheet" href="css/product-card.css">
+	<link rel="stylesheet" href="css/catalog.css">
+	<link rel="stylesheet" href="css/pagination.css">
+
+
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+
+<!-- header -->
+<header class="header" id="header">
+	<div class="container-big">
+		<div class="header-head">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header-wrapper">
+							<div class="header-wrapper__top">
+								<ul class="header-wrapper__list-contacts">
+									<li class="header-wrapper__contact header-wrapper__contact_email">
+										<a href="mailto:info@qgsore" class="header-wrapper__contact-link">
+											info@qgsore
+										</a>
+									</li>
+									<li class="header-wrapper__contact header-wrapper__contact_chat">
+										<a href="tel:+74992840094" class="header-wrapper__contact-link">
+											+7 (499) 284–00–94
+										</a>
+									</li>
+								</ul>
+								<a href="#" class="header-wrapper__my-orders">
+									Мои заказы
+								</a>
+							</div>
+							<div class="header-wrapper__body">
+								<button class="header-wrapper__menu-btn menu-btn">
+									<span></span>
+									<span></span>
+									<span></span>
+								</button>
+								<a href="index.html" class="header-wrapper__logo-block">
+									<img src="img/logo.svg" alt="QUANTUM STORE" class="header-wrapper__logo">
+								</a>
+								<form action="№" method="get" class="header-wrapper__search search">
+									<input name="search" placeholder="Поиск" type="search" class="search__input">
+									<div class="search__block">
+										<select name="" id="" class="search__select">qqq
+											<option value="Везде">Везде</option>
+											<option value="Ноутбуки">Ноутбуки</option>
+											<option value="Мониторы">Мониторы</option>
+											<option value="Моноблоки">Моноблоки</option>
+											<option value="Десктопы">Десктопы</option>
+											<option value="Офисная техника">Офисная техника</option>
+											<option value="Хранение данных">Хранение данных</option>
+											<option value="Сервера">Сервера</option>
+											<option value="Мультимедиа">Мультимедиа</option>
+											<option value="Видеонаблюдение">Видеонаблюдение</option>
+											<option value="Cетевое оборудование">Cетевое оборудование</option>
+											<option value="Телефония">Телефония</option>
+											<option value="Програмное обеспечение">Програмное обеспечение</option>
+										</select>
+										<button type="submit" class="search__btn"></button>
+									</div>
+								</form>
+								<a href="#" class="header-wrapper__cart cart">
+									<span class="cart__amount-block">
+										<span class="cart__amount">
+											8
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<nav class="nav-header">
+							<ul class="nav-header__menubar" role="menubar">
+								<li class="nav-header__menuitem nav-header__menuitem_logo" role="menuitem" aria-current="page">
+									<a href="index.html" class="nav-header__logo-block">
+										<img src="img/logo.svg" alt="QUANTUM STORE" class="nav-header__logo">
+									</a>
+								</li>
+								<li class="nav-header__menuitem" role="menuitem" aria-current="page">
+									<a href="#" class="nav-header__link active">
+										Каталог
+									</a>
+								</li>
+								<li class="nav-header__menuitem" role="menuitem">
+									<a href="#" class="nav-header__link">
+										Доставка и возврат
+									</a>
+								</li>
+								<li class="nav-header__menuitem" role="menuitem">
+									<a href="#" class="nav-header__link">
+										Контакты
+									</a>
+								</li>
+								<li class="nav-header__menuitem" role="menuitem">
+									<a href="#" class="nav-header__link">
+										Политика безопасности
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<!-- store -->
+<div class="catalog-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!-- aside -->
+			<aside class="col-xl-3" id="aside-box">
+				<button class="aside-open btn active" id="aside-open">
+					<span class="aside-open__burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+					<span>
+						Категории
+					</span>
+				</button>
+				<div class="aside-wrapper" id="aside-wrapper">
+					<button class="aside-close" id="aside-close"></button>
+					<div class="aside">
+						<h2 class="aside__title">
+							Категории
+						</h2>
+						<ol class="aside__list" id="aside-list">
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Ноутбуки
+									<small>(<span>1254</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Мониторы
+									<small>(<span>721</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Десктопы
+									<small>(<span>532</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Офисная техника
+									<small>(<span>361</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Хранение данных
+									<small>(<span>0</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Сервера
+									<small>(<span>196</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Мультимедиа
+									<small>(<span>0</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Видеонаблюдение
+									<small>(<span>0</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Сетевое оборудование
+									<small>(<span>0</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Телефония
+									<small>(<span>25</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Программное обеспечение
+									<small>(<span>0</span>)</small>
+								</a>
+							</li>
+							<li class="aside__item">
+								<a href="#" class="aside__link">
+									Моноблоки
+									<small>(<span>333</span>)</small>
+								</a>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</aside>
+
+			<!-- store -->
+			<section class="col-xl-9" id="store">
+				
+				<!-- filter -->
+				<div class="store-filter">
+                    <div class="store-sorting">
+                        <label class="store-sorting__label">
+                            Сортировать:
+                            <select class="store-sorting__select">
+                                <option value="0">По цене</option>
+                                <option value="1">По названию</option>
+                            </select>
+                        </label>
+
+                        <label>
+                            Показывать:
+                            <select class="store-sorting__select store-sorting__select_2">
+                                <option value="0">20</option>
+                                <option value="1">50</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- cards -->
+				<div class="store-wrap">
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb 
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (136 SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare active"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-5.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								Ноутбук Lenovo IdeaPad S145-15API, 15.6", AMD Ryzen 5 3500U 2.1ГГц, 8ГБ, 1000ГБ, 128ГБ SSD, AMD Radeon Vega 8 Windows 10, 81UT00FDRU, серый
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart active"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites active"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+					<!-- product-card -->
+					<div class="product-card">
+						<a href="product.html" class="product-card__link">
+							<div class="product-card__img">
+								<img src="img/catalog/laptops/HP-1.jpg" alt="HP 245 G8">
+							</div>
+							<span class="product-card__title">
+								HP 245 G8 AMD 3020e 1.2GHz 14&quot;HD (1366x768) AG,4Gb DDR4(1),128Gb SSD,41Wh,1.5kg,1y,Win10Pro 6451.299
+							</span>
+						</a>
+						<span class="product-card__buy-block">
+							<span class="product-card__prise-block">
+								<span class="product-card__prise">
+									28000
+								</span>
+								<small>
+									₽
+								</small>
+							</span>
+							<button  class="product-card__to-cart"></button>
+						</span>
+						<span class="product-card__btn-block">
+							<button type="button" class="product-card__btn product-card__btn_favorites"></button>
+							<button type="button" class="product-card__btn product-card__btn_compare"></button>
+							<button type="button" class="product-card__btn product-card__btn_view"></button>
+						</span>
+					</div>
+				</div>
+
+                <!-- pagination -->
+                <div class="pagination__wrapper">
+	                <div class="pagination">
+	                    <ul class="pagination__list">
+	                        <li class="pagination__item active">
+	                        	<a href="#">1</a>
+	                        </li>
+	                        <li class="pagination__item">
+	                        	<a href="#">2</a>
+	                        </li>
+	                        <li class="pagination__item">
+	                        	<a href="#">3</a>
+	                        </li>
+	                        <li class="pagination__item">
+	                        	<a href="#">...</a>
+	                        </li>
+	                        <li class="pagination__item">
+	                        	<a href="#">8</a>
+	                        </li>
+	                    </ul>
+	                </div>
+                </div>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+<!-- footer -->
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<a href="index.html" class="footer-logo">
+					<img src="img/footer/logo-footer.svg" alt="" class="footer-logo__img">
+				</a>
+				<div class="footer-wrap">
+					<ul class="footer-wrap__list">
+						<li class="footer-wrap__item">
+							<a href="tel:+74992840094" class="footer-wrap__link" rel="nofollow noopener noreferrer">
+								+7 (499) 284–00–94
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="mailto:info@qgsore" class="footer-wrap__link" rel="nofollow noopener noreferrer">
+								info@qgsore
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="footer-wrap">
+					<h3 class="footer-wrap__title">
+						Продукция
+					</h3>
+					<ul class="footer-wrap__list">
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Ноутбуки
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Декстопы
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Моноблоки
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Офисная техникаи
+							</a>
+						</li>
+
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Хранение данных
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="footer-wrap">
+					<h3 class="footer-wrap__title">
+						О нас
+					</h3>
+					<ul class="footer-wrap__list">
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Политика компании
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Гарантии и безопасность 
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Условия доставки
+							</a>
+						</li>
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Условия возврата
+							</a>
+						</li>
+
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Способы оплаты
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<div class="footer-wrap">
+					<h3 class="footer-wrap__title">
+						Сервис
+					</h3>
+					<ul class="footer-wrap__list">
+						<li class="footer-wrap__item">
+							<a href="#" class="footer-wrap__link">
+								Мои заказы
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/header.js"></script>
+<script src="js/aside.js"></script>
+
+</body>
+</html>

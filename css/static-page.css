@@ -1,0 +1,32 @@
+.content-wrapper {
+	padding-left: 30px;
+}
+
+.content-box {
+	margin-top: 45px;
+	margin-bottom: 100px;
+}
+
+.content-box__title {
+	font-weight: 400;
+	color: var(--color-2);
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.content-box__text {
+	margin-bottom: 8px;
+}
+
+.content-box__text:last-child {
+	margin-bottom: 0;
+}
+
+
+@media (max-width: 767px) {
+
+	.content-box {
+		margin-bottom: 60px;
+	}
+}
+
+

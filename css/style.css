@@ -1,0 +1,144 @@
+:root {
+    --color-1: #D94923;
+    --color-2: #184472;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    line-height: 1.3em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+p {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+a, button, select {
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.container-big {
+    width: 100%;
+    padding: 0;
+}
+
+.page-title {
+    color: var(--color-2);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.btn {
+    background-color: var(--color-1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 14px 28px 13px;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+    border: 2px solid var(--color-1);
+}
+
+.btn:hover {
+    background: transparent;
+    transition: color 0.2s ease;
+    color: var(--color-1);
+}
+
+
+/*   validate-error-label   */
+
+.js-validate-error-label {
+    display: none;
+}
+
+
+
+/*   responsive   */
+
+@media (max-width: 1199px) {
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 13px 25px 12px;
+    }
+
+    .page-title {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

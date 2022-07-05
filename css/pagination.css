@@ -1,0 +1,40 @@
+/*   pagination   */
+
+.pagination__wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.pagination {
+	0
+}
+
+.pagination__list {
+	display: flex;
+}
+
+.pagination__item {
+	margin-right: 20px;
+}
+
+.pagination__item:last-child {
+	margin-right: 0;
+}
+
+.pagination__item a {
+	text-decoration: none;
+	color: #151428;
+	display: block;
+	padding: 7px 14px 6px;
+	border-radius: 5px;
+	transition: background .5s ease;
+}
+
+.pagination__item a:hover {
+	background: #F5FAFF;
+	transition: background .5s ease;
+}
+
+.pagination__item.active a {
+	background: #F5FAFF;
+}
